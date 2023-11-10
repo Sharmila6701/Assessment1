@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main{
+public static void main (String[] args){
+   Scanner sc = new Scanner(System.in);
+   String num = sc.nextInt()+" ";
+for(int i =0;i<num.length();i++){
+   int no=Integer.parseInt(num.charAt(i))+" ";
+   int leftdiff=0;
+   int rightdiff=0;
+if(i>0){
+   intleftn=Integer.parseInt(num.charAt(i-1);
+   intleftdiff=Math.abs(no-leftn); 
+
+}
+if(i<num.length()-1){
+  int rightn=Integer.ParseInt(num.charAt(i+1)+" ";
+  int rightdiff=Math.abs(no-rightn);
+}
+if(leftdiff>1 && rightdiff>1){
+{
+System.out.println(num+"is not jumbled");
+}
+System.out.println(num+"is jumbled");
+}
+
